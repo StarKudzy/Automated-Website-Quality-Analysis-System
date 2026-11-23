@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="LaunchReady QA helps developers test website performance, accessibility, SEO, functionality, responsiveness and security before launch.">
+
+    <title>LaunchReady QA | Test Smarter. Launch with Confidence.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/landing.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i data-lucide="rocket"></i>
+                </span>
+
+                <span>
+                    LaunchReady<span class="logo-highlight">QA</span>
+                </span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#reports" class="nav-link">Reports</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+
+                <div class="mobile-nav-actions">
+                    <a href="login.html" class="login-link">Log In</a>
+                    <a href="register.html" class="btn btn-orange">
+                        Get Started
+                    </a>
+                </div>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <a href="login.html" class="login-link">
+                    Log In
+                </a>
+
+                <a href="register.html" class="btn btn-orange">
+                    Get Started
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+
+            </div>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="navLinks">
+
+                <i data-lucide="menu"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        YOUR WEBSITE QUALITY ASSURANCE PARTNER
+                    </div>
+
+                    <h1>
+                        Test smarter.<br>
+                        Launch with<br>
+                        <span class="gradient-text">confidence.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        An integrated website quality assessment platform
+                        that helps developers detect issues, improve performance,
+                        and deliver better websites before launch.
+                    </p>
+
+                    <form class="hero-form" id="heroForm">
+
+                        <div class="url-input-wrapper">
+
+                            <i data-lucide="link-2"></i>
+
+                            <input
+                                type="url"
+                                id="websiteURL"
+                                placeholder="https://yourwebsite.com"
+                                aria-label="Website URL"
+                                required
+                            >
+
+                        </div>
+
+                        <button type="submit" class="btn btn-orange analyze-btn">
+
+                            Analyze Website
+
+                            <i data-lucide="arrow-right"></i>
+
+                        </button>
+
+                    </form>
+
+                    <p class="form-message" id="formMessage" role="status"></p>
+
+                    <div class="hero-checks">
+
+                        <span>
+                            <i data-lucide="check-circle-2"></i>
+                            Performance
+                        </span>
+
+                        <span>
+                            <i data-lucide="check-circle-2"></i>
+                            Accessibility
+                        </span>
+
+                        <span>
+                            <i data-lucide="check-circle-2"></i>
+                            SEO
+                        </span>
+
+                        <span>
+                            <i data-lucide="check-circle-2"></i>
+                            Security
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard Preview -->
+
+                <div class="hero-visual">
+
+                    <div class="floating-badge badge-top">
+                        <i data-lucide="shield-check"></i>
+                        Quality checks
+                    </div>
+
+                    <div class="dashboard-preview">
+
+                        <div class="preview-header">
+
+                            <div class="preview-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>LaunchReady QA</span>
+
+                            <i data-lucide="more-horizontal"></i>
+
+                        </div>
+
+                        <div class="preview-body">
+
+                            <div class="preview-sidebar">
+
+                                <div class="preview-sidebar-logo">
+                                    <i data-lucide="rocket"></i>
+                                </div>
+
+                                <i data-lucide="layout-dashboard"></i>
+                                <i data-lucide="scan-line"></i>
+                                <i data-lucide="bar-chart-3"></i>
+                                <i data-lucide="history"></i>
+
+                            </div>
+
+                            <div class="preview-main">
+
+                                <div class="preview-title">
+
+                                    <div>
+                                        <span class="preview-label">
+                                            WEBSITE QUALITY REPORT
+                                        </span>
+
+                                        <h3>Website Overview</h3>
+                                    </div>
+
+                                    <span class="preview-status">
+                                        Sample Report
+                                    </span>
+
+                                </div>
+
+                                <div class="preview-score-section">
+
+                                    <div class="score-circle">
+
+                                        <div class="score-inner">
+                                            <strong>87</strong>
+                                            <span>Overall Score</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="score-details">
+
+                                        <h4>Quality Assessment</h4>
+
+                                        <p>
+                                            Example results across six
+                                            quality categories.
+                                        </p>
+
+                                        <span class="score-good">
+                                            <i data-lucide="check-circle-2"></i>
+                                            Good Quality
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="preview-metrics">
+
+                                    <div class="metric-row">
+                                        <span>Performance</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill green" style="width: 92%"></div>
+                                        </div>
+                                        <strong>92%</strong>
+                                    </div>
+
+                                    <div class="metric-row">
+                                        <span>Accessibility</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill green" style="width: 88%"></div>
+                                        </div>
+                                        <strong>88%</strong>
+                                    </div>
+
+                                    <div class="metric-row">
+                                        <span>SEO</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill purple" style="width: 85%"></div>
+                                        </div>
+                                        <strong>85%</strong>
+                                    </div>
+
+                                    <div class="metric-row">
+                                        <span>Functionality</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill orange" style="width: 80%"></div>
+                                        </div>
+                                        <strong>80%</strong>
+                                    </div>
+
+                                    <div class="metric-row">
+                                        <span>Responsiveness</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill green" style="width: 90%"></div>
+                                        </div>
+                                        <strong>90%</strong>
+                                    </div>
+
+                                    <div class="metric-row">
+                                        <span>Security Basics</span>
+                                        <div class="metric-track">
+                                            <div class="metric-fill purple" style="width: 87%"></div>
+                                        </div>
+                                        <strong>87%</strong>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge badge-bottom">
+                        <span class="floating-check">
+                            <i data-lucide="check"></i>
+                        </span>
+                        Actionable insights
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-wave"></div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section class="section how-section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-tag">SIMPLE PROCESS</span>
+
+                    <h2>
+                        How <span class="text-purple">LaunchReady</span> Works
+                    </h2>
+
+                    <p>
+                        From URL submission to actionable insights,
+                        assess your website quality in one streamlined workflow.
+                    </p>
+
+                </div>
+
+                <div class="steps-grid">
+
+                    <div class="step-card reveal">
+
+                        <div class="step-icon">
+                            <i data-lucide="globe"></i>
+                        </div>
+
+                        <span class="step-number">01</span>
+
+                        <h3>Enter Your URL</h3>
+
+                        <p>
+                            Provide the website address you want
+                            to assess before deployment.
+                        </p>
+
+                    </div>
+
+                    <div class="step-arrow">
+                        <i data-lucide="arrow-right"></i>
+                    </div>
+
+                    <div class="step-card reveal">
+
+                        <div class="step-icon">
+                            <i data-lucide="scan-line"></i>
+                        </div>
+
+                        <span class="step-number">02</span>
+
+                        <h3>Run Assessment</h3>
+
+                        <p>
+                            Launch automated checks across
+                            multiple website quality categories.
+                        </p>
+
+                    </div>
+
+                    <div class="step-arrow">
+                        <i data-lucide="arrow-right"></i>
+                    </div>
+
+                    <div class="step-card reveal">
+
+                        <div class="step-icon">
+                            <i data-lucide="chart-no-axes-combined"></i>
+                        </div>
+
+                        <span class="step-number">03</span>
+
+                        <h3>Get Your Report</h3>
+
+                        <p>
+                            Review detected issues, quality scores,
+                            recommendations and release readiness.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="section features-section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-tag">COMPREHENSIVE TESTING</span>
+
+                    <h2>
+                        Everything your website
+                        <span class="text-purple">needs to succeed.</span>
+                    </h2>
+
+                    <p>
+                        One platform bringing together six essential
+                        website quality checks.
+                    </p>
+
+                </div>
+
+                <div class="features-grid">
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon orange-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+
+                        <h3>Performance</h3>
+
+                        <p>
+                            Evaluate loading speed, page efficiency
+                            and performance indicators.
+                        </p>
+
+                        <span class="feature-label">SPEED & EFFICIENCY</span>
+
+                    </div>
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon purple-icon">
+                            <i data-lucide="accessibility"></i>
+                        </div>
+
+                        <h3>Accessibility</h3>
+
+                        <p>
+                            Identify detectable accessibility barriers
+                            that may affect website usability.
+                        </p>
+
+                        <span class="feature-label">INCLUSIVE DESIGN</span>
+
+                    </div>
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon blue-icon">
+                            <i data-lucide="search"></i>
+                        </div>
+
+                        <h3>SEO Analysis</h3>
+
+                        <p>
+                            Examine page titles, metadata and
+                            essential search optimization elements.
+                        </p>
+
+                        <span class="feature-label">SEARCH OPTIMIZATION</span>
+
+                    </div>
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon pink-icon">
+                            <i data-lucide="link-2-off"></i>
+                        </div>
+
+                        <h3>Functionality</h3>
+
+                        <p>
+                            Detect broken links and missing resources
+                            that could affect user experience.
+                        </p>
+
+                        <span class="feature-label">BROKEN LINK DETECTION</span>
+
+                    </div>
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon purple-icon">
+                            <i data-lucide="monitor-smartphone"></i>
+                        </div>
+
+                        <h3>Responsiveness</h3>
+
+                        <p>
+                            Assess website layouts across simulated
+                            desktop, tablet and mobile screen sizes.
+                        </p>
+
+                        <span class="feature-label">MULTI-VIEWPORT TESTING</span>
+
+                    </div>
+
+                    <div class="feature-card reveal">
+
+                        <div class="feature-icon orange-icon">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+
+                        <h3>Security Basics</h3>
+
+                        <p>
+                            Check HTTPS availability and selected
+                            security-related response headers.
+                        </p>
+
+                        <span class="feature-label">BASIC SECURITY CHECKS</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REPORT PREVIEW ================= -->
+
+        <section class="section report-section" id="reports">
+
+            <div class="container report-layout">
+
+                <div class="report-content reveal">
+
+                    <span class="section-tag">ACTIONABLE REPORTS</span>
+
+                    <h2>
+                        Know exactly what
+                        <span class="text-purple">needs improvement.</span>
+                    </h2>
+
+                    <p class="report-description">
+                        LaunchReady QA transforms automated test results
+                        into clear reports that help development teams
+                        understand website quality and prioritize fixes.
+                    </p>
+
+                    <div class="report-benefits">
+
+                        <div class="report-benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Overall website quality assessment</span>
+                        </div>
+
+                        <div class="report-benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Scores across quality categories</span>
+                        </div>
+
+                        <div class="report-benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Detected issues with severity levels</span>
+                        </div>
+
+                        <div class="report-benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Actionable improvement recommendations</span>
+                        </div>
+
+                        <div class="report-benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Previous assessments for comparison</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#home" class="btn btn-purple">
+
+                        Start Your Assessment
+
+                        <i data-lucide="arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+                <div class="report-visual reveal">
+
+                    <div class="report-demo-card">
+
+                        <div class="report-demo-header">
+
+                            <div>
+                                <span class="demo-label">
+                                    SAMPLE QUALITY REPORT
+                                </span>
+
+                                <h3>Website Assessment</h3>
+                            </div>
+
+                            <span class="demo-badge">Illustrative</span>
+
+                        </div>
+
+                        <div class="demo-score">
+
+                            <div class="demo-score-circle">
+                                <div>
+                                    <strong>87</strong>
+                                    <small>/ 100</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4>Good Quality</h4>
+
+                                <p>
+                                    Example of a website
+                                    quality assessment.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <h4 class="issues-heading">
+                            Example Detected Issues
+                        </h4>
+
+                        <div class="issue-item">
+                            <span class="severity high">High</span>
+                            <p>Broken link on contact page</p>
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="issue-item">
+                            <span class="severity medium">Medium</span>
+                            <p>Missing meta description</p>
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="issue-item">
+                            <span class="severity low">Low</span>
+                            <p>Image without alternative text</p>
+                            <i data-lucide="chevron-right"></i>
+                        </div>
+
+                        <div class="demo-footer">
+
+                            <span>
+                                <i data-lucide="info"></i>
+                                Illustrative data
+                            </span>
+
+                            <span>LaunchReady QA</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BENEFITS ================= -->
+
+        <section class="section benefits-section" id="benefits">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-tag">WHY LAUNCHREADY QA?</span>
+
+                    <h2>
+                        Better testing.
+                        <span class="text-purple">Better websites.</span>
+                    </h2>
+
+                    <p>
+                        Simplify your pre-deployment quality assurance process
+                        and make more informed release decisions.
+                    </p>
+
+                </div>
+
+                <div class="benefits-grid">
+
+                    <div class="benefit-card reveal">
+
+                        <div class="benefit-icon">
+                            <i data-lucide="clock-3"></i>
+                        </div>
+
+                        <h3>Save Development Time</h3>
+
+                        <p>
+                            Initiate multiple website quality checks
+                            through a single assessment workflow.
+                        </p>
+
+                    </div>
+
+                    <div class="benefit-card reveal">
+
+                        <div class="benefit-icon">
+                            <i data-lucide="target"></i>
+                        </div>
+
+                        <h3>Identify Issues Earlier</h3>
+
+                        <p>
+                            Discover detectable website problems
+                            before they affect your users.
+                        </p>
+
+                    </div>
+
+                    <div class="benefit-card reveal">
+
+                        <div class="benefit-icon">
+                            <i data-lucide="layers-3"></i>
+                        </div>
+
+                        <h3>Consistent Assessments</h3>
+
+                        <p>
+                            Apply repeatable quality checks
+                            and predefined assessment rules.
+                        </p>
+
+                    </div>
+
+                    <div class="benefit-card reveal">
+
+                        <div class="benefit-icon">
+                            <i data-lucide="rocket"></i>
+                        </div>
+
+                        <h3>Launch with Confidence</h3>
+
+                        <p>
+                            Make release decisions using
+                            structured testing evidence and reports.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAQ ================= -->
+
+        <section class="section faq-section" id="faq">
+
+            <div class="container faq-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-tag">FREQUENTLY ASKED QUESTIONS</span>
+
+                    <h2>
+                        Have questions?
+                        <span class="text-purple">We've got answers.</span>
+                    </h2>
+
+                    <p>
+                        Learn more about how LaunchReady QA is designed
+                        to support website quality assessment.
+                    </p>
+
+                </div>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+
+                        <button class="faq-question" aria-expanded="false">
+
+                            <span>What does LaunchReady QA test?</span>
+
+                            <i data-lucide="plus"></i>
+
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                LaunchReady QA is designed to assess
+                                performance, accessibility, SEO, broken links,
+                                responsiveness and basic security indicators.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button class="faq-question" aria-expanded="false">
+
+                            <span>Does LaunchReady QA replace manual testing?</span>
+
+                            <i data-lucide="plus"></i>
+
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                No. Automated assessments help developers
+                                identify detectable issues, but manual testing
+                                is still important for usability, complex
+                                functionality and physical-device verification.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button class="faq-question" aria-expanded="false">
+
+                            <span>Can I assess websites on different screen sizes?</span>
+
+                            <i data-lucide="plus"></i>
+
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                The planned responsiveness module evaluates
+                                website layouts using simulated desktop,
+                                tablet and mobile viewport sizes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button class="faq-question" aria-expanded="false">
+
+                            <span>What information will my report contain?</span>
+
+                            <i data-lucide="plus"></i>
+
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Reports will present category results,
+                                detected issues, severity classifications,
+                                improvement recommendations and
+                                release-readiness information.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button class="faq-question" aria-expanded="false">
+
+                            <span>Can I compare previous website assessments?</span>
+
+                            <i data-lucide="plus"></i>
+
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Yes. The planned scan history feature will
+                                allow users to review previous assessments
+                                and compare website quality over time.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CALL TO ACTION ================= -->
+
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-card reveal">
+
+                    <div class="cta-glow"></div>
+
+                    <div class="cta-content">
+
+                        <span class="cta-tag">
+                            BUILD BETTER. LAUNCH BETTER.
+                        </span>
+
+                        <h2>
+                            Ready to test your website?
+                        </h2>
+
+                        <p>
+                            Bring your website quality checks together
+                            in one streamlined assessment platform.
+                        </p>
+
+                        <a href="#home" class="btn btn-white">
+
+                            Start Your Assessment
+
+                            <i data-lucide="arrow-up-right"></i>
+
+                        </a>
+
+                    </div>
+
+                    <div class="cta-decoration">
+
+                        <div class="cta-circle circle-one"></div>
+                        <div class="cta-circle circle-two"></div>
+
+                        <div class="cta-rocket">
+                            <i data-lucide="rocket"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+
+                    <a href="#home" class="logo">
+
+                        <span class="logo-icon">
+                            <i data-lucide="rocket"></i>
+                        </span>
+
+                        <span>
+                            LaunchReady<span class="logo-highlight">QA</span>
+                        </span>
+
+                    </a>
+
+                    <p>
+                        An integrated website quality assurance
+                        platform for developers and development teams.
+                    </p>
+
+                    <span class="footer-company">
+                        A product of LaunchReady Technologies
+                    </span>
+
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Product</h4>
+
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#reports">Quality Reports</a>
+                    <a href="#benefits">Benefits</a>
+
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Resources</h4>
+
+                    <a href="#faq">FAQs</a>
+                    <a href="#how-it-works">Getting Started</a>
+                    <a href="#features">Quality Checks</a>
+
+                </div>
+
+                <div class="footer-column">
+
+                    <h4>Account</h4>
+
+                    <a href="login.html">Log In</a>
+                    <a href="register.html">Create Account</a>
+                    <a href="#home">Analyze Website</a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; <span id="currentYear"></span>
+                    LaunchReady Technologies. All rights reserved.
+                </p>
+
+                <span>
+                    Test Smarter. Launch with Confidence.
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/landing.js"></script>
+
+</body>
+</html>
